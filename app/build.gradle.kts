@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.zariapps.quran.alafasy"
+    namespace = "com.zariapps.quran.ghamdi"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.zariapps.quran.alafasy"
+        applicationId = "com.zariapps.quran.ghamdi"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -24,10 +24,10 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file("../store_assets/quran-alafasy-release.jks")
-            storePassword = "AlafasyQuran2024!"
-            keyAlias = "quran-alafasy"
-            keyPassword = "AlafasyQuran2024!"
+            storeFile = file("../store_assets/quran-ghamdi-release.jks")
+            storePassword = "GhamdiQuran2024!"
+            keyAlias = "quran-ghamdi"
+            keyPassword = "GhamdiQuran2024!"
         }
     }
 

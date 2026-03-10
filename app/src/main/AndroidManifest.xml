@@ -14,18 +14,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.QuranSudais"
+        android:theme="@style/Theme.QuranGhamdi"
         tools:targetApi="34">
 
         <!-- AdMob App ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3572341533498507~3796311444" />
+            android:value="ca-app-pub-3572341533498507~1170148105" />
 
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.QuranSudais">
+            android:theme="@style/Theme.QuranGhamdi">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
