@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(adb devices)",
+      "Bash(./gradlew installDebug)",
+      "Read(//c/Program Files/Android/Android Studio/jbr/bin/**)",
+      "Read(//c/Program Files/Android/Android Studio/jre/bin/**)",
+      "WebFetch(domain:quran.com)",
+      "WebFetch(domain:verses.quran.com)",
+      "WebFetch(domain:download.quranicaudio.com)",
+      "Bash(JAVA_HOME=\"C:/Program Files/Android/Android Studio/jbr\" ./gradlew installDebug)",
+      "Bash(adb shell am start -n com.zariapps.quran.sudais/.MainActivity)",
+      "Bash(adb -s SM-G998U shell am start -n com.zariapps.quran.sudais/.MainActivity)",
+      "Bash(adb -s emulator-5554 shell am start -n com.zariapps.quran.sudais/.MainActivity)"
+    ]
+  }
+}
